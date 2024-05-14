@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Carros Gabriel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="navbar-static.css" rel="stylesheet">
+    
+
+   
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Revenda do GB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pagina inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Carros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Motos</a>
+              </li>
+            </ul>
+            
+
+          </div>
+        </div>
+        <!-- Layolt Site -->
+      </nav>   
+   
+<div class="swiper-gallery-home d-flex d-lg-none swiper-initialized swiper-horizontal swiper-pointer-events">
+    <div class="swiper-wrapper" id="swiper-wrapper-d61344dbad10a10d95" aria-live="off" style="cursor: grab; transition-duration: 300ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                    <img src="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png" data-src="https://resized-images.autoconf.com.br/593x330/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 380w," srcset="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 768w," alt="banner" width="720" height="100%">
+                    </div>
+                <div class="swiper-slide" data-swiper-slide-index="0">
+                                    <img src="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png" data-src="https://resized-images.autoconf.com.br/593x330/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 380w," srcset="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 768w," alt="banner" width="720" height="100%">
+                    </div>
+            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                    <img src="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png" data-src="https://resized-images.autoconf.com.br/593x330/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 380w," srcset="https://resized-images.autoconf.com.br/720x400/filters:format(webp)/site/663/95145e06-8297-453a-9dda-6efc7e45c048.png 768w," alt="banner" width="720" height="100%">
+                    </div></div>
+    <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic" style="width: 40px;"></div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                <div class="container-fluid d-md-none">
+            <div class="row justify-content-center py-4">
+                <div class="col">
+                    <a class="btn btn-primary w-100" href="https://zezveiculos.com.br/estoque" title="Ver todo estoque">Estoque</a>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-primary w-100" href="https://zezveiculos.com.br/venda-seu-carro" title="Venda seu carro">Vender</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid search-home lazyloaded" loading="lazy">
+            <div class="row py-5">
+                <div class="col-md-6 col-xl-9 form-search">
+                    <form class="form-pages" id="searchForm" action="https://zezveiculos.com.br/estoque" method="GET" novalidate="">
+                        <label for="term"><p>Qual veículo você está buscando?</p></label>
+                        <div class="input-group search-input">
+                            <input type="text" name="termo" id="term" class="form-control" placeholder="Marca ou modelo" aria-label="Marca ou modelo" aria-describedby="submit-search">
+                            <button class="btn btn-primary" type="submit" id="submit-search" aria-label="Pesquisar">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 30.001 30.001" class="lupa-svg">
+                                    <path id="Path_265" data-name="Path 265" d="M14.795,1.969,7.236-5.59a.7.7,0,0,0-.5-.205h-.6a12.134,12.134,0,0,0,3.24-8.268A12.186,12.186,0,0,0-2.813-26.25,12.186,12.186,0,0,0-15-14.062,12.186,12.186,0,0,0-2.813-1.875,12.156,12.156,0,0,0,5.455-5.109v.6a.721.721,0,0,0,.205.5l7.559,7.559a.7.7,0,0,0,1,0l.58-.58A.7.7,0,0,0,14.795,1.969ZM-2.813-3.75A10.305,10.305,0,0,1-13.125-14.062,10.305,10.305,0,0,1-2.813-24.375,10.305,10.305,0,0,1,7.5-14.062,10.305,10.305,0,0,1-2.813-3.75Z" transform="translate(15 26.25)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-xl-3 all-stock d-none d-md-block">
+                    <a class="btn btn-outline-primary" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Ver todo estoque">Ver todo estoque</a>
+                </div>
+                                    <div class="brands brands-home">
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/audi.png" alt="Audi" width="40" height="40">
+                                <small>Audi</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/bmw.png" alt="BMW" width="40" height="40">
+                                <small>BMW</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/citroen.png" alt="Citroën" width="40" height="40">
+                                <small>Citroën</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/fiat.png" alt="Fiat" width="40" height="40">
+                                <small>Fiat</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/ford.png" alt="Ford" width="40" height="40">
+                                <small>Ford</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/honda.png" alt="Honda" width="40" height="40">
+                                <small>Honda</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mhi">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/hyundai.png" alt="Hyundai" width="40" height="40">
+                                <small>Hyundai</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/jeep.png" alt="Jeep" width="40" height="40">
+                                <small>Jeep</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/kia-motors.png" alt="Kia Motors" width="40" height="40">
+                                <small>Kia Motors</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/land-rover.png" alt="Land Rover" width="40" height="40">
+                                <small>Land Rover</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/mercedes-benz.png" alt="Mercedes" width="40" height="40">
+                                <small>Mercedes</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/mini.png" alt="Mini" width="40" height="40">
+                                <small>Mini</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/mitsubishi.png" alt="Mitsubishi" width="40" height="40">
+                                <small>Mitsubishi</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/renault.png" alt="Renault" width="40" height="40">
+                                <small>Renault</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/subaru.png" alt="Subaru" width="40" height="40">
+                                <small>Subaru</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/toyota.png" alt="Toyota" width="40" height="40">
+                                <small>Toyota</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/vw-volkswagen.png" alt="Volkswagen" width="40" height="40">
+                                <small>Volkswagen</small>
+                            </a>
+                                                    <a class="brand-link" href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh">
+                                <img class=" ls-is-cached lazyloaded" src="https://static.autoconf.com.br/marcas/volvo.png" alt="Volvo" width="40" height="40">
+                                <small>Volvo</small>
+                            </a>
+                                            </div>
+                            </div>
+                            <div class="central">
+                                <p>Nossa missão é Oferecer e proporcionar a comercialização de automóveis e serviços com qualidade e segurança, visando, atendendo as expectativas e necessidades dos nossos clientes e colaboradores por meio de um relacionamento de fidelização, satisfação e alegria.</p><br>
+                            
+        </div>
+                    <div class="container-fluid" loading="lazy">
+                <h2 class="text-center py-5 mb-0"><b>Últimas Novidades !!!</b></h2>
+                <div class="row g-4">
+                                                                        <div class="col-md-6 col-lg-4 d-flex">
+    <div class="card card-car">
+        <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="BYD U8 SUPER">
+            <div class="card-header">
+                                                    <img src="c:\Users\62129532024.1\Desktop\BYD U9.webp" alt="BYD U8 SUPER SPORT " width="100%" height="100%">
+                                <div class="badges">
+                                    </div>
+            </div>
+        </a>
+            <div class="card-body">
+                <div class="row car-description">
+                    <div class="col-auto">
+                        <img class="brand-img d-block" src="c:\Users\62129532024.1\Desktop\logo-byd.jpg" alt="Honda" width="40" height="40">
+                    </div>
+                    <div class="col mt-2 p-0">
+                        <h3 class="fw-normal">BYD <span class="fw-bold">Sport</span></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                                                <p class="fw-bold">Hybrido 1.300 CV </p>
+                                            </div>
+                </div>
+                <div class="row car-detail-info">
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/ano.svg" alt="Ano" width="12" height="14">
+                        <span>2024/2024</span>
+                                            </div>
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/km.svg" alt="Km" class="kilometragem" width="16" height="12">
+                        <span>0 Km</span>
+                    </div>
+                </div>
+            </div>
+        <div class="card-footer">
+            <div class="price row d-flex align-items-center">
+                                <div class="col-auto">
+                    <small class="me-1 fw-normal d-block">de R$ 1.000.000 </small>
+                </div>
+                <div class="col-auto">
+                <span>por R$</span><strong class="fs-4"> 980.000</strong>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oy5ke7RoyfA?si=7RasjQ-qYqF2BkCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                                <div class="col-12 col-xxl d-xxl-flex justify-content-xxl-end d-block">
+                    <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Honda Fit" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                                                                                <div class="col-md-6 col-lg-4 d-flex">
+    <div class="card card-car">
+        <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Ferrari Super">
+            <div class="card-header">
+                                                    <img src="c:\Users\62129532024.1\Desktop\ferrari-sp-8.webp" alt="Ferrari Red Super" width="100%" height="100%">
+                                <div class="badges">
+                                    </div>
+            </div>
+        </a>
+            <div class="card-body">
+                <div class="row car-description">
+                    <div class="col-auto">
+                        <img class="brand-img d-block" src="c:\Users\62129532024.1\Desktop\logo ferrari.jpg" alt="Ferrari" width="40" height="40">
+                    </div>
+                    <div class="col mt-2 p-0">
+                        <h3 class="fw-normal">Ferrari <span class="fw-bold">SP-8</span></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                                                <p class="fw-bold">Ferrari Black Automatic 600 CV</p>
+                                            </div>
+                </div>
+                <div class="row car-detail-info">
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/ano.svg" alt="Ano" width="12" height="14">
+                        <span>2020/2021</span>
+                                            </div>
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/km.svg" alt="Km" class="kilometragem" width="16" height="12">
+                        <span>30.000 km</span>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        <div class="card-footer">
+            <div class="price row d-flex align-items-center">
+                                <div class="col-auto">
+                    <small class="me-1 fw-normal d-block">de R$ 600.000 </small>
+                </div>
+                <div class="col-auto">
+                <span>por R$</span><strong class="fs-4"> 549.000</strong>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XSLYIZJW1Z0?si=GPUezMji6iFs_HqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                                <div class="col-12 col-xxl d-xxl-flex justify-content-xxl-end d-block">
+                    <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Fiat Uno" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                                                                                <div class="col-md-6 col-lg-4 d-flex">
+    <div class="card card-car">
+        <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Citroën AIRCROSS">
+            <div class="card-header">
+                                                    <img src="c:\Users\62129532024.1\Desktop\mustang.webp" alt="Mustang Exclusive 2.0 Flex 16V 5p Aut." width="100%" height="100%">
+                                <div class="badges">
+                                    </div>
+            </div>
+        </a>
+            <div class="card-body">
+                <div class="row car-description">
+                    <div class="col-auto">
+                        <img class="brand-img d-block" src="c:\Users\62129532024.1\Desktop\logo mustang.jpg" alt="Ford-Mustang" width="40" height="40">
+                    </div>
+                    <div class="col mt-2 p-0">
+                        <h3 class="fw-normal">Ford <span class="fw-bold">Mustang</span></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                                                <p class="fw-bold">2.0 EXCLUSIVE 16V FLEX 4P AUTOMÁTICO</p>
+                                            </div>
+                </div>
+                <div class="row car-detail-info">
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/ano.svg" alt="Ano" width="12" height="14">
+                        <span>2014/2015</span>
+                                            </div>
+                    <div class="col-auto">
+                        <img src="https://static.autoconf.com.br/common/template-2/km.svg" alt="Km" class="kilometragem" width="16" height="12">
+                        <span>80.800 km</span>
+                    </div>
+                </div>
+            </div>
+        <div class="card-footer">
+            <div class="price row d-flex align-items-center">
+                                <div class="col-auto">
+                    <small class="me-1 fw-normal d-block">de R$ 120.000 </small>
+                </div>
+                <div class="col-auto">
+                <span>por R$</span><strong class="fs-4"> 98.700</strong>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6quxl-3K4U0?si=S7sZkk71MfKxnWnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                                <div class="col-12 col-xxl d-xxl-flex justify-content-xxl-end d-block">
+                    <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" title="Mustang" class="btn btn-outline-primary">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                                                                                        </div>
+                <div class="text-center py-5">
+                    <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" class="btn btn-outline-primary">Receba as novidades em nosso grupo</a>
+                </div>
+            </div>
+                <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 mt-3 mt-lg-0">
+                    <div class="card card-home">
+                        <div class="card-body overflow-hidden position-relative rounded">
+                            <h4 class="fw-bold">Venda seu Carro</h4>
+                            <p class="fw-bold">Faça a avaliação do seu carro online, no conforto da sua casa.</p>
+                            <a href="https://chat.whatsapp.com/LIEPUqXNeJ41CTKIW5f1Mh" class="btn btn-primary">Avalie agora</a>
+                            <div class="bottom-0 end-0 top-0 position-absolute w-50 d-none d-xl-block">
+                                <img src="https://static.autoconf.com.br/common/template-2/venda-seu-carro.png" class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h4 class="fw-bold">Financie seu sonho</h4>
+                            <p class="fw-bold">Trabalhamos com as principais financeiras, isso garante melhores taxas para você!</p>
+                            <a href="https://www.santander.com.br/hotsite/santanderfinanciamentos/" class="btn btn-primary">Faça uma simulação com a nossa parceria Santander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="container-fluid">
+            <div class="row text-center sociais py-5">
+    <div class="col">
+        <h3>Redes Sociais Dev</h3>
+                <a href="https://www.instagram.com/gabriel.otx/" title="Confira nosso instagram" class="instagram" target="_blank">
+            <img src="https://static.autoconf.com.br/common/template-2/instagram-colorful.svg" alt="Instagram" width="32" height="32">
+        </a>
+                        <a href="https://www.facebook.com/gabriel.coosta.1" title="Confira nosso facebook" class="facebook" target="_blank">
+            <img src="https://static.autoconf.com.br/common/template-2/facebook.svg" alt="Facebook" width="32" height="32">
+        </a>
+                    </div>
+</div>
+
+
+
+
+</div>
+
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.710974830206!2d-43.36070172377563!3d-22.997653341126554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda482f3cf5b5%3A0xa7dd934e3fdd28bf!2sBarra%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1715641484274!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script></footer>
+</body>
+</html>
